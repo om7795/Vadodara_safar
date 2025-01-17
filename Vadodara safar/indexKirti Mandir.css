@@ -1,0 +1,379 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+.header,
+h4 {
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.header,
+img {
+    width: 1350px;
+    float: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/* linkes*/
+#About {
+    padding-left: 5px;
+}
+
+#Map {
+    padding-left: 400px;
+}
+
+#Gallery {
+    padding-left: 400px;
+}
+
+.links {
+    margin: 0;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-bottom: solid lightslategray;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+/*text*/
+.text {
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 20px;
+    background-color: antiquewhite;
+    margin-bottom: 50px;
+    font-size: 17px;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+}
+
+/* photo*/
+.photo,
+img {
+
+    width: 1000px;
+    height: 500px;
+    border-radius: 0px;
+    padding-left: 125px;
+    padding-right: 125px;
+
+}
+
+/*go*/
+.go {
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: antiquewhite;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 25px;
+    margin-bottom: 50px;
+
+}
+
+h3 {
+    margin-top: 50px;
+    padding-top: 50px;
+    font-size: 35px;
+}
+
+.bus {
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 50px;
+}
+
+.gop {
+    font-size: 20px;
+    color: black;
+}
+
+.gopp {
+    font-size: 15px;
+    margin-bottom: 100px;
+    color: darkgray;
+}
+
+/* neare */
+.min {
+    position: relative;
+    width: 400px;
+    float: left;
+    margin-left: 50px;
+
+}
+
+.allimg {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    width: 400px;
+    height: 200px;
+    border-radius: 25px;
+}
+
+.mintext {
+    margin-right: 50px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    opacity: 0;
+    transition: 3s ease;
+    border-radius: 25px;
+    background-color: lightblue;
+}
+
+.min:hover .mintext {
+    opacity: 1;
+}
+
+.alltext {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.textminho::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*<!--Where To Stay-->*/
+.h2 {
+    padding-left: 100px;
+    margin-bottom: 20px;
+}
+
+.nearby {
+    margin-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 10px;
+    border-radius: 25px;
+}
+
+.nearbyimg {
+    border-radius: 15px;
+    width: 400px;
+    height: 200px;
+    padding: 0px;
+    margin-left: 50px;
+}
+
+/*Where To Stay*/
+.h22 {
+    margin-top: 50px;
+    padding-left: 100px;
+    margin-bottom: 20px;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.stayimg {
+    border-radius: 15px;
+    width: 400px;
+    height: 200px;
+    padding: 0px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.stay {
+    padding-top: 10px;
+    padding-top: 0px;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+
+/*Where To Stay*/
+.h22 {
+    margin-top: 50px;
+    padding-left: 100px;
+    margin-bottom: 20px;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.stayimg {
+    border-radius: 15px;
+    width: 400px;
+    height: 200px;
+    padding: 0px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.stay {
+    padding-top: 10px;
+    padding-top: 0px;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+
+/*copy*/
+.mmin {
+    position: relative;
+    width: 400px;
+    float: left;
+    margin-left: 50px;
+
+}
+
+.aallimg {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    width: 400px;
+    height: 200px;
+    border-radius: 25px;
+}
+
+.mmintext {
+    margin-right: 50px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    opacity: 0;
+    transition: 3s ease;
+    border-radius: 25px;
+    background-color: lightblue;
+}
+
+.mmin:hover .mmintext {
+    opacity: 1;
+}
+
+.aalltext {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.ttextminho::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.mmin {
+    position: relative;
+    width: 400px;
+    float: left;
+    margin-left: 50px;
+
+}
+
+.aallimg {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    width: 400px;
+    height: 200px;
+    border-radius: 25px;
+}
+
+.mmintext {
+    margin-right: 50px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    opacity: 0;
+    transition: 3s ease;
+    border-radius: 25px;
+    background-color: lightblue;
+}
+
+.mmin:hover .mmintext {
+    opacity: 1;
+}
+
+.aalltext {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.ttextminho::after {
+    content: "";
+    clear: both;
+    display: table;
+}
